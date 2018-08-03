@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hover css</title>
+	<style type="text/css">
+		button {
+			width: 200px;
+			height: 50px;
+			font-size: 24px;
+			background-color: green;
+			transition: 0.5s;
+		}
+		button:hover {
+			/*This is a psedo class selector it activate only when cursor is hover on the submit button*/
+			background-color: darkorange;
+			transition: 0.5s;
+		}
+	</style>
+</head>
+<body>
+	<form>
+		<div>
+			Username <input type="text" name="usename" placeholder="Username"><br><br>
+			Password <input type="password" name="password" placeholder="Password"><br><br>
+			<button>submit</button>
+		</div>
+	</form>
+</body>
+</html>
