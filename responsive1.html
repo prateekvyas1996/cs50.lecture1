@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>responsive design</title>
+	<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+	<style type="text/css">
+		h1{
+				text-align: center;
+			}
+		@media (min-width: 500px){
+			h1::before{
+				content: "Welcome to my page"
+			}
+		}
+		@media (max-width: 499px){
+			h1::before{
+				content: "Welcome"
+			}
+		}
+	</style>
+</head>
+<body>
+<h1></h1>
+</body>
+</html>
